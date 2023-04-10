@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    background-color: rgb(8, 138, 189);
+    box-sizing: border-box;
+}
+
+#logo {
+  float: left;
+}
+
+#img-text {
+  margin-left: 55px;
+}
+.img-text1a, .img-text1b {
+    color: rgb(247, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: none;
+    
+}
+
+.img-text1a {
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.img-text1b {
+    font-size: x-small;
+    margin-left: 110px;
+}
+
+#list1 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  bottom: 0;
+  left: 5px;
+  float: inline-start;
+}
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+    float: right;
+
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    float: inline-start;
+  }
+  
+  nav > ul > li {
+    color: rgb(247, 248, 248);
+    margin: 0 0.2rem;
+    padding: 0.3rem;
+    display: flex;
+    
+  }
+  
+  nav > ul > li:hover {
+    background-color: rgb(5, 125, 177);
+    color: #0d0b11;
+    cursor: pointer;
+  }
+  
+  li > a {
+    color: rgb(247, 248, 248);
+    text-decoration: none;
+  }
+
+  #barriga {
+    width: 1400px;
+    height: 400px;
+  }
+
+  .list2 {
+    background-color: rgb(240, 243, 243);
+    color:rgb(8, 138, 189);
+    display: flex; 
+    justify-content: space-evenly;
+    cursor: context-menu;
+  }
+
+  #medico {
+      
+    float: left;
+    
+  }
+
+  #text-medico {
+    
+    margin: 100px 60px 0 0px;
+    color:rgb(8, 138, 189);
+    text-align: justify;
+    font-size: x-large;
+      
+  }
+
+  .agendar {
+    text-decoration-line: none;
+    color:rgb(8, 138, 189);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #direccion {
+    color: rgb(150, 146, 146);
+    font-size: x-small;
+  }
